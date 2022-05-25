@@ -8,7 +8,7 @@ module "frontend" {
   WORKSTATION_IP        = var.WORKSTATION_IP
   APP_PORT              = var.APP_PORT
   APP_VERSION           = var.APP_VERSION
-  LB_TYPE               = "internal"
+  LB_TYPE               = "public"
 }
 
 
