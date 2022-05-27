@@ -9,7 +9,7 @@ module "frontend" {
   APP_PORT              = var.APP_PORT
   APP_VERSION           = var.APP_VERSION
   LB_TYPE               = "public"
-  APP_TYPE              = "frontend"
+  APP_TYPE              = var.APP_PORT
 }
 
 
