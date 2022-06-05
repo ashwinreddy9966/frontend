@@ -10,6 +10,7 @@ module "frontend" {
   APP_VERSION           = var.APP_VERSION
   LB_TYPE               = "public"
   APP_TYPE              = var.APP_TYPE
+  PROMETHEUS_IP         = var.PROMETHEUS_IP
 }
 
 
