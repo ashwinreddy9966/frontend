@@ -1,3 +1,3 @@
 FROM       nginx
-RUN        rm -rf /var/share/nginx/html/*
-COPY       static/ /var/share/nginx/html/
+RUN        rm -rf /usr/share/nginx/html/*
+COPY       static/ /usr/share/nginx/html/
