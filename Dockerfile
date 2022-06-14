@@ -1,7 +1,3 @@
 FROM       nginx
-RUN        useradd roboshop
-WORKDIR    /home/roboshop
-COPY       server.js .
-COPY       package.json .
-RUN        npm install
-ENTRYPOINT ["node", "server.js"]
+RUN        rm -rf /var/share/nginx/html/*
+COPY       static/ /var/share/nginx/html/
