@@ -76,5 +76,6 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
-configmap:
+
+configMap:
   enabled: false
